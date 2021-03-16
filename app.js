@@ -13,7 +13,7 @@ app.get("/", function(req, res) {
   res.sendFile(__dirname + "/signup.html")
 });
 mailchimp.setConfig({
-  apiKey: "ced87ceb98be4a0ee0d7205a2f323842-us1",
+  apiKey: "apixxxxxxx",
   server: "us1"
 });
 app.post("/", function(req, res) {
